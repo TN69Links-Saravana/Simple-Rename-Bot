@@ -3,7 +3,7 @@ import math
 import os
 import time
 
-PROGRESS_BAR = "\n\n📁 : {b} | {c}\n🚀 : {a}%\n⚡ : {d}/s\n⏱️ : {f}"
+PROGRESS_BAR = "<b>\n\n📁 Sɪᴢᴇ : {b} | {c}\n🚀 Sᴩᴇᴇᴅ : {a}%\n⏳️ Dᴏɴᴇ : {d}/s\n⏰️ Eᴛᴀ : {f}</b>"
 
 async def progress_message(current, total, ud_type, message, start):
     now = time.time()
