@@ -18,7 +18,7 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"<b>Hᴇʟʟᴏ {msg.from_user.mention} I Aᴍ Sɪᴍᴘʟᴇ Rᴇɴᴀᴍᴇ Bᴏᴛ Wɪᴛʜ Pᴇʀsᴏɴᴀʟ Usᴀɢᴇ.\nTʜɪs Bᴏᴛ Is Mᴀᴅᴇ Bʏ :</b> <b><a href=https://t.me/Cute_Boy_Saravana</a></b>"                                     
+    txt=f"<b>Hᴇʟʟᴏ {msg.from_user.mention} I Aᴍ Sɪᴍᴘʟᴇ Rᴇɴᴀᴍᴇ Bᴏᴛ Wɪᴛʜ Pᴇʀsᴏɴᴀʟ Usᴀɢᴇ.\nTʜɪs Bᴏᴛ Is Mᴀᴅᴇ Bʏ :</b> <b><a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a></b>"                                     
     button= [[
         InlineKeyboardButton("🦋 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🦋", url="https://t.me/TN69Links")
         ],[
