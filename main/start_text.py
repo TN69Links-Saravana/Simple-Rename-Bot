@@ -9,7 +9,7 @@ async def start_cmd(bot, msg):
     btn = InlineKeyboardMarkup([[
         InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/TN69Links-Saravana/Simple-Rename-Bot")
         ],[
-        InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Dᴇᴘʟᴏʏ", url="https://youtu.be/oc847WvOUaI")
+        InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Dᴇᴘʟᴏʏ", url="https://youtube.com/@TN69Links")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -47,9 +47,9 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a> & <a href=https://t.me/TN69Vikram>ᥫ᭡፝֟፝֟ Vikram࿐</a>"  
-    Source="<a href=https://github.com/TN69Links-Saravana/Simple-Rename-Bot>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/TN69Links</a>\nUᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ: <a href=https://t.me/mkn_bots_updates>Mᴋɴ Bᴏᴛᴢ™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    Mᴀsᴛᴇʀ=f"<a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a> & <a href=https://t.me/TN69Vikram>ᥫ᭡፝֟፝֟ Vikram࿐</a>"  
+    Sᴏᴜʀᴄᴇ="<a href=https://github.com/TN69Links-Saravana/Simple-Rename-Bot>Click Here</a>"
+    txt=f"<b>Bᴏᴛ Nᴀᴍᴇ: {me.mention}\nDᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/TN69Links</a>\n🦋 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🦋: <a href=https://youtube.com/@TN69Links>🌸 YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ 🌸</a>\n😈 Mʏ Mᴀsᴛᴇʀ's 😈: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
