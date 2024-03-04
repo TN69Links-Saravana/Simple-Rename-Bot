@@ -49,7 +49,7 @@ async def about(bot, msg):
     me=await bot.get_me()
     Master=f"<a href=https://t.me/Cute_Boy_Saravana>Ƭɴ69 ×͜× Sᴀʀᴀᴠᴀɴᴀ࿐</a>"  
     Source="<a href=https://github.com/TN69Links-Saravana/Simple-Rename-Bot>Click Here</a>"
-    txt=f"<b>Mʏ Nᴀᴍᴇ : {me.mention}\nDᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/TN69Links</a>\n🌸 YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ : <a href=https://youtube.com/@TN69Links>Sᴜʙsᴄʀɪʙᴇ Nᴏᴡ</a>\n😈 Mʏ Mᴀsᴛᴇʀ : {Master}\nSᴏᴜʀᴄᴇ Cᴏᴅᴇ : {Source}</b>"                 
+    txt=f"<b>Mʏ Nᴀᴍᴇ : {me.mention}\nSᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ : <a href=https://t.me/RoyalxMovies>Jᴏɪɴ Hᴇʀᴇ</a>\n🌸 YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ : <a href=https://youtube.com/@TN69Links>Sᴜʙsᴄʀɪʙᴇ Nᴏᴡ</a>\n😈 Mʏ Mᴀsᴛᴇʀ : {Master}\nSᴏᴜʀᴄᴇ Cᴏᴅᴇ : {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Cʟᴏsᴇ", callback_data="del"),
         InlineKeyboardButton("⬅️ Bᴀᴄᴋ", callback_data="start") 
