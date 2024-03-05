@@ -10,14 +10,14 @@ services:
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
-        sync: 6433110243:AAEHTsio1VnTpliE78Z02AzImHJFrIM6VYQ
+        sync: false
       - key: API_ID
-        sync: 24482734
+        sync: false
       - key: API_HASH
-        sync: 5ccf6a58166cc047a7eba01c5dbc930c
+        sync: false
       - key: CAPTION
-        sync: <b>{file_name}</b>
+        sync: false
       - key: ADMIN
-        sync: 1790775725
+        sync: false
 
         
