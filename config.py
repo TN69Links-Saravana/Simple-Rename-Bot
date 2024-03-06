@@ -8,5 +8,3 @@ CAPTION = environ.get("CAPTION", "<b>{file_name}</b>")
 
 # for thumbnail ( back end is TN69Links brain 😉)
 DOWNLOAD_LOCATION = "./DOWNLOADS"
-
-PORT = os.environ.get("PORT", "8080")
