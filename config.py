@@ -1,4 +1,6 @@
-from os import environ
+import os
+from os import getenv, environ
+from dotenv import load_dotenv
 
 API_ID = int(environ.get("API_ID", "24482734"))
 API_HASH = environ.get("API_HASH", "5ccf6a58166cc047a7eba01c5dbc930c")
